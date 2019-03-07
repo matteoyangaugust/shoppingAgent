@@ -14,19 +14,10 @@
            http://www.springframework.org/schema/tx/spring-tx-4.0.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <bean id="systemDataSource" class="org.apache.commons.dbcp.BasicDataSource">
-        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-        <!--<property name="url" value="jdbc:mysql://shoppingagent.ct8h9hvdjms0.ap-northeast-1.rds.amazonaws.com:3306/shopping_agent?serverTimezone=UTC"/>-->
-        <!--<property name="url" value="jdbc:mysql://192.168.0.101:3306/shopping_agent?serverTimezone=UTC"/>-->
-        <!--<property name="url" value="jdbc:mysql://127.0.0.1:3306/shopping_agent?serverTimezone=UTC"/>-->
-        <!--<property name="url" value="jdbc:mysql://augustbrothers.synology.me:3307/shopping_agent?serverTimezone=UTC"/>-->
-        <property name="url" value="jdbc:mysql://ec2-54-152-5-37.compute-1.amazonaws.com:3306/shopping_agent?serverTimezone=UTC"/>
-        <!--Matt-PC-->
-        <!--<property name="username" value="Matt"/>-->
-        <!--AugustBrothers-->
-        <!--<property name="username" value="Matteo"/>-->
-        <!--localhost-->
-        <property name="username" value="sa"/>
-        <property name="password" value="origo777"/>
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/> 
+        <property name="url" value="jdbc:mysql://localhost:3306/shopping_agent?serverTimezone=UTC"/>        
+        <property name="username" value=""/>
+        <property name="password" value=""/>
     </bean>
 
     <bean id="abstractGeneralDao" abstract="true" class="com.matt.dataAccess.JdbcConnector">
