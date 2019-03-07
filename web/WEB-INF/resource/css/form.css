@@ -1,0 +1,41 @@
+.formOutSide{
+    background-color:#000000;
+    background-color:rgba(0,0,0,0.5);
+    box-shadow: 3px 3px 10px #000000;
+}
+.labelText {
+    color: black;
+    font-weight: bold;
+}
+.swalLabelText{
+    color: black;
+    font-weight: bold;
+    font-family: Microsoft JhengHei;
+}
+.swalLabelText-sm{
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    font-family: Microsoft JhengHei;
+}
+.swalLabelText-light-gray{
+    color: #c0c0c0;
+    font-weight: bold;
+    font-family: Microsoft JhengHei;
+}
+.swalLabelText-middle-gray{
+    color: #636c72;
+    font-weight: bold;
+    font-family: Microsoft JhengHei;
+}
+.warningText {
+    color:#FFDD55;
+    font-weight: bold;
+    font-family: Microsoft JhengHei;
+}
+
+.dangerText {
+    color:red;
+    font-weight: bold;
+    font-family: Microsoft JhengHei;
+}

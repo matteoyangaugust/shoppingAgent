@@ -1,0 +1,52 @@
+@media screen and (min-width: 1199px){
+    #addCategoryInfo>div{
+        margin: 0 auto;
+    }
+    .action > button{
+        width: 200px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 1199px){
+    #addCategoryInfo>div{
+        margin: 0 auto;
+    }
+    .action > button{
+        width: 100px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 500px){
+    .brand{
+        width: 100%;
+    }
+    .nameArea{
+        width: 80%;
+        padding: 0px 0px;
+        margin: 0 auto;
+    }
+    .nameArea input{
+        width: 100%;
+    }
+    .action{
+        width: 80%;
+        padding: 0px 0px;
+        margin: 0 auto;
+    }
+    .action>button{
+        width: 33%
+    }
+}
+
+
+.category{
+    border-radius: 10px;
+    border:1px solid #c0c0c0;
+}
+
+.category:hover{
+    /*border:5px solid grey;*/
+    box-shadow: 2px 2px 4px #000000;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}

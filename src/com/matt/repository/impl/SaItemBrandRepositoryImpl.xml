@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SQL>
+    <select_all_brands>
+        <![CDATA[
+            select * from sa_item_brand
+        ]]>
+    </select_all_brands>
+</SQL>

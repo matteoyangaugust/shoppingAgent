@@ -1,0 +1,33 @@
+@media screen and (min-width: 1199px){
+    .action > button{
+        width: 200px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 1199px){
+    .action > button{
+        width: 100px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 500px){
+    .brand{
+        width: 100%;
+    }
+    .nameArea{
+        width: 80%;
+        padding: 0px 0px;
+        margin: 0 auto;
+    }
+    .nameArea input{
+        width: 100%;
+    }
+    .action{
+        width: 80%;
+        padding: 0px 0px;
+        margin: 0 auto;
+    }
+    .action>button{
+        width: 33%
+    }
+}

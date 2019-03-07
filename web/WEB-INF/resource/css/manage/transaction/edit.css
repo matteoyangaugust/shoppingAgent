@@ -1,0 +1,45 @@
+@media screen and (min-width: 1024px){
+    .reservation>div{
+        width: 25%;
+    }
+}
+@media screen and (max-width: 1023px){
+    .reservation>div{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 736px){
+    #transactionSelectorWrapper{
+        margin-bottom:10px;
+    }
+    .actionLine>div>span{
+        display: block;
+    }
+    .actionLine>button{
+        width:300px;
+        margin-bottom:10px;
+    }
+    .actionLine>div>select{
+        width:70%;
+    }
+}
+@media screen and (max-width: 500px){
+    #transaction{
+        margin : 0 10px;
+    }
+}
+#transaction{
+    width: 300px;
+}
+.reservationInfo>div{
+    padding-left: 0px;
+    padding-right: 0px;
+    width:300px;
+    margin:5px auto 5px auto;
+}
+.itemPic{
+    height:100px;
+}
+.coverPhoto{
+    height:100%;
+}

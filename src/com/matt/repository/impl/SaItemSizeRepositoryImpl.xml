@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SQL>
+    <select_sa_item_size>
+        <![CDATA[
+            select * from sa_item_size
+        ]]>
+    </select_sa_item_size>
+
+    <delete_size>
+        <![CDATA[
+            delete from sa_item_size where sn = :sn
+        ]]>
+    </delete_size>
+</SQL>

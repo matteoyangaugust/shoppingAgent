@@ -1,0 +1,25 @@
+.reservations{
+    border-radius: 10px;
+    border:1px solid #c0c0c0;
+    box-shadow: 2px 2px 4px #000000;
+}
+.reservations:hover{
+    box-shadow: 5px 5px 8px #000000;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.reservation:hover{
+    /*border:5px solid grey;*/
+    box-shadow: 2px 2px 4px #000000;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.reservation > div{
+    width: 250px;
+    margin : 10px auto 10px auto;
+}
+
+.settingMethod{
+    min-width: 100px;
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SQL>
+    <select_sa_item_colors>
+        <![CDATA[
+            select * from sa_item_color
+        ]]>
+    </select_sa_item_colors>
+
+    <delete_color>
+        <![CDATA[
+            delete from sa_item_color where sn = :sn
+        ]]>
+    </delete_color>
+</SQL>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SQL>
+    <select_sa_item_photos>
+        <![CDATA[
+            select * from sa_item_photo
+        ]]>
+    </select_sa_item_photos>
+
+    <delete_photo>
+        <![CDATA[
+            delete from sa_item_photo where sn = :sn
+        ]]>
+    </delete_photo>
+</SQL>
